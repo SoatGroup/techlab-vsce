@@ -1,6 +1,7 @@
 # techlab-vsce
-VS Code Extension est un outil en ligne d e commande qui permet de créer, débugger et publier des extensions sur l'Extension MarketPlace.
-Ce repository contient les ateliers permettant de créer vos premières extensions.
+VS Code est un éditeur de code léger, gratuit, Open source et multiplateformes (Windows, Linux et Mac).
+Cet IDE est également extensible.
+Ce repository contient les ateliers permettant de créer vos premières extensions pour VS Code.
 
 # Les Auteurs
 Vous pouvez retrouver les contacts des auteurs via [ce lien](Authors.md)
