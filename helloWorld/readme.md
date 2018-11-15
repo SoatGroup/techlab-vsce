@@ -46,6 +46,8 @@ Dans cette fenêtre, vous pouvez utiliser votre extension.
 
 Appuyez sur `Ctrl + Shift + P` pour Windows (`Cmd +Shift + P` pour Mac) et lancez la commande `Hello World`.
 
+![](commandHelloWorld.png)
+
 Une fenêtre de message doit alors apparaître avec le message `Hello World`.
 
 ![](dialogHelloWorld.png)
