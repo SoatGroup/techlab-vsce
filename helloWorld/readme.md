@@ -46,6 +46,31 @@ Dans cette fenêtre, vous pouvez utiliser votre extension.
 
 Appuyez sur `Ctrl + Shift + P` pour Windows (`Cmd +Shift + P` pour Mac) et lancez la commande `Hello World`.
 
-Une fenêtre de message doit alors apparaître.
+Une fenêtre de message doit alors apparaître avec le message `Hello World`.
 
 ![](dialogHelloWorld.png)
+
+## Modifier la commande
+
+Ouvrez le fichier *package.json* et remplacez le code suivant :
+
+```javascript
+"commands": [
+    {
+        "command": "extension.sayHello",
+        "title": "Say Good Evening"
+    }
+]
+```
+
+Ouvrez le fichier *extension.ts* et remplacez le code suivant :
+
+```javascript
+// Display a message box to the user
+vscode.window.showInformationMessage('Good Evening !');
+```
+
+Appuyez sur `F5` pour lancer l'extension et lancez la commande `Say Good Evening`.
+Vous devriez alors voir le message suivant :
+
+![](dialogGoodEvening.png)
