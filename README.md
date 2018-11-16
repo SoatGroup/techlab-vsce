@@ -18,6 +18,10 @@ Vous pouvez également retrouver ces raccourcis depuis VS Code: **Help** > **Key
 # Prérequis
 Avant de commencer les différents ateliers, il vous faut [installer les Prérequis](Prerequisites.md)
 
-# Compte de publication
-Pour créer un package et publier votre application sur le MarketPlace il vous faudra vous créer un compte de publivation.
-Pour cela suivez les [instructions de création du compte de publication](PublisherAccount.md)
+# Hello World
+Pour créer votre première extension, suivez l'atelier [HelloWorld](helloWorld)
+
+# Packaging d'extension
+
+
+Pour découvrir comment packager votre application en vue d'une distribution via le MarketPlace ou en direct, suivez l'atelier [Packaging](Packaging)
