@@ -18,10 +18,12 @@ Vous pouvez également retrouver ces raccourcis depuis VS Code: **Help** > **Key
 # Prérequis
 Avant de commencer les différents ateliers, il vous faut [installer les Prérequis](Prerequisites.md)
 
-# Hello World
+# Ateliers
+
+## Hello World
 Pour créer votre première extension, suivez l'atelier [HelloWorld](helloWorld)
 
-# Packaging d'extension
+## Packaging d'extension
 
 
 Pour découvrir comment packager votre application en vue d'une distribution via le MarketPlace ou en direct, suivez l'atelier [Packaging](Packaging)
