@@ -44,7 +44,7 @@ Pour créer le package, lancez la commande suivante depuis le terminal :
 vsce package
 ```
 
-Un lien vers le fichier *vsix* de votre installation doit alors appraître :
+Un lien vers le fichier *vsix* de votre installation doit alors apparaître :
 `Created: C:\Users\micha\source\tmp\vsce\helloWorld\helloWorld-0.0.1.vsix (8 files, 21.94KB)`
 
 ## Installer votre extension depuis le package
