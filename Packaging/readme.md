@@ -29,7 +29,7 @@ Initial release of HelloWorld extension !
 ## Respository
 
 Vous pouvez ajouter un lien vers le repository de votre code source si vous souhaitez que celui-ci apparaisse dans la fiche de votre extension.
-Pour cela, ajoutez la propriété suivante au fichier `extension.ts` :
+Pour cela, ajoutez la propriété suivante au fichier `package.json` :
 ```javascript
 "repository": {
     "type": "git",
