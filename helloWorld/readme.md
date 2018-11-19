@@ -21,6 +21,7 @@ Renseignez les paramètres suivants :
 * publisher name : **votre publisher name**
 * Enable stricter TypeScript checking : **Y**
 * Setup linting using 'tslint' : **Y**
+* Initialize a git repository? : **n**
 
 ![](yoCodeHelloWorld.png)
 
