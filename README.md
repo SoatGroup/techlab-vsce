@@ -23,6 +23,9 @@ Avant de commencer les différents ateliers, il vous faut [installer les Préreq
 ## Hello World
 Pour créer votre première extension, suivez l'atelier [HelloWorld](helloWorld)
 
+## Word Counter
+Pour créer votre seconde extension, suivez l'atelier [WordCounter](wordCounter)
+
 ## Packaging d'extension
 
 
