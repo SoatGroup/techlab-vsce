@@ -59,8 +59,9 @@ Ouvrez le fichier *package.json* et remplacez le code suivant :
 ```javascript
 "commands": [
     {
-        "command": "extension.countWords",
-        "title": "Count Words"
+        
+        "command": "extension.sayHello",
+        "title": "Say Good Evening"
     }
 ]
 ```
