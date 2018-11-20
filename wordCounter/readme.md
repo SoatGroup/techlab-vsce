@@ -54,7 +54,7 @@ Une fenêtre de message doit alors apparaître avec le message `Hello World`.
 
 ## Modifier la commande
 
-Ouvrez le fichier *package.json* et remplacez le code suivant :
+Ouvrez le fichier *package.json* et remplacez votre code le code suivant :
 
 ```javascript
 "activationEvents": [
@@ -62,7 +62,21 @@ Ouvrez le fichier *package.json* et remplacez le code suivant :
 ],// The module 'vscode' contains the VS Code extensibility API
 // Import the necessary extensibility types to use in your code below
 import {window, commands, Disposable, ExtensionContext, StatusBarAlignment, StatusBarItem, TextDocument} from 'vscode';
+```
 
+```javascript
+"commands": [
+    {
+        
+        "command": "extension.countWords",
+        "title": "Count Words"
+    }
+]
+```
+
+Modifiez le fichier *extension.ts* :
+
+```javascript
 // This method is called when your extension is activated. Activation is
 // controlled by the activation events defined in package.json.
 export function activate(context: ExtensionContext) {
@@ -131,18 +145,10 @@ class WordCounter {
 }
 ```
 
-## Modifier la commande
 
 Ouvrez le fichier *package.json* et remplacez le code suivant :
 
-```javascript
-"commands": [
-    {
-        
-        "command": "extension.countWords",
-        "title": "Count Words"
-    }
-]
-```
 
+
+Ouvrez un fichier de type markdown (le fichier readme.md de votre extension par exemple).
 Appuyez sur `F5` pour lancer l'extension et lancez la commande `Count Words`.
