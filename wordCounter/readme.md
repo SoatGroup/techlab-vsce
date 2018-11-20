@@ -131,4 +131,18 @@ class WordCounter {
 }
 ```
 
+## Modifier la commande
+
+Ouvrez le fichier *package.json* et remplacez le code suivant :
+
+```javascript
+"commands": [
+    {
+        
+        "command": "extension.countWords",
+        "title": "Count Words"
+    }
+]
+```
+
 Appuyez sur `F5` pour lancer l'extension et lancez la commande `Count Words`.
