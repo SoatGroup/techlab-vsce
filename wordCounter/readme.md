@@ -147,10 +147,5 @@ class WordCounter {
 }
 ```
 
-
-Ouvrez le fichier *package.json* et remplacez le code suivant :
-
-
-
 Ouvrez un fichier de type markdown (le fichier readme.md de votre extension par exemple).
 Appuyez sur `F5` pour lancer l'extension et lancez la commande `Count Words`.
