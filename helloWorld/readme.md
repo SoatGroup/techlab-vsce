@@ -1,7 +1,6 @@
 # Instructions
 
 Dans cet atelier, nous allons créer une extension simple permettant de répondre à une commande en affichant une fenêtre de message.
-Nous découvrirons les éléments définissant les commandes et l"API de
 
 ## Initialiser le workspace
 
@@ -60,8 +59,8 @@ Ouvrez le fichier *package.json* et remplacez le code suivant :
 ```javascript
 "commands": [
     {
-        "command": "extension.sayHello",
-        "title": "Say Good Evening"
+        "command": "extension.countWords",
+        "title": "Count Words"
     }
 ]
 ```
